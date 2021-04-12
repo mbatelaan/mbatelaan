@@ -24,3 +24,13 @@ I will post writings about my PhD research here
     {% endfor %}
   </ul>
 {% endfor %}
+
+
+## Navigation
+
+<h2>{{ site.data.navigation.list_title }}</h2>
+<ul>
+   {% for item in site.data.navigation.main %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
