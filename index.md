@@ -8,7 +8,7 @@ I will post writings about my PhD research here
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="https://pages.github.cs.adelaide.edu.au/a1688714/a1688714/{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
