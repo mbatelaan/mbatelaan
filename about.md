@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "About"
+parmalink: /about/
 ---
 
 # This blog is where I will post writings related to my PhD research.
