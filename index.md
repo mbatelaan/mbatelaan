@@ -1,10 +1,6 @@
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+---
+layout: default
+---
 
 ## Welcome to my blog pages
 
