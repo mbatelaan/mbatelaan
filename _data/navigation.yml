@@ -1,6 +1,6 @@
-list_title: Page Navigatio
+list_title: Page Navigation
 main:
    - title: "Home"
-     url: index.md
+     url: index
    - title: "About"
-     url: about.md
+     url: about
