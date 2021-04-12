@@ -1,6 +1,5 @@
 #theme
-theme: "mmistakes/minimal-mistakes@4.16.5"
-minimal_mistakes_skin: "dark"
+theme: jekyll-theme-tactile
 
 # Site Settings
 title: M. Batelaan blog
@@ -9,3 +8,5 @@ subtitle: PhD research
 name: Mischa Batelaan
 url: "https://pages.github.cs.adelaide.edu.au/a1688714/a1688714"
 repository: "https://github.cs.adelaide.edu.au/a1688714/a1688714"
+
+
