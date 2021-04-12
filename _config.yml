@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: [your repo's top level directory]
+source: a1688714
 incremental: false
 highlighter: rouge
 gist:
