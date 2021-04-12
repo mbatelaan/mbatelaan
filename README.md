@@ -18,3 +18,6 @@ Here are some ideas to get you started:
 -->
 
 https://pages.github.cs.adelaide.edu.au/a1688714/a1688714/
+
+## Sources:
+ - http://benlansdell.github.io/computing/mathjax/
