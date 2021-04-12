@@ -1,11 +1,3 @@
-# Site Settings
-title: M. Batelaan blog
-description: This is my blog site
-subtitle: PhD research
-name: Mischa Batelaan
-url: "https://pages.github.cs.adelaide.edu.au/a1688714/a1688714"
-repository: "https://github.cs.adelaide.edu.au/a1688714/a1688714"
-
 ## Welcome to my blog pages
 
 I will post writings about my PhD research here
