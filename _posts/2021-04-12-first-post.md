@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "First blog post"
+title: "First blog post"
+published: true
 ---
 
 # Welcome
