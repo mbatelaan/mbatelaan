@@ -13,8 +13,13 @@ To help myself out I will keep a short list of the things I plan to write about:
  - productivity
  - Quantified Self & time tracking
  - coding problems
+ - emacs tips, tricks and workflows
+ - org-mode configurations and workflows
  - Thesis writing tricks & strategies
- - Cycling strategy & enjoyment
  - Lattice QCD theory
+ - Philosophy of Science
+ - General physics concepts
+ - Cycling strategy, stories, race reviews and discussions
+ - Book reviews
 
 [blogging]:   https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/
