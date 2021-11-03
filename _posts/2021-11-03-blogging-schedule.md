@@ -22,4 +22,8 @@ To help myself out I will keep a short list of the things I plan to write about:
  - Cycling strategy, stories, race reviews and discussions
  - Book reviews
 
+Here I will also post some links to sites that give good tips & tricks on writing blogs:
+ - [Hints for revising][http://web.archive.org/web/20050403185924/http://www.testing.com/cgi-bin/blog/2004/11/16],
+ - [Writing tips for non-writers who don't want to work at writing][https://whatever.scalzi.com/2006/02/12/writing-tips-for-non-writers-who-dont-want-to-work-at-writing/]
+
 [blogging]:   https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/
