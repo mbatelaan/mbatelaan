@@ -25,7 +25,9 @@ Here I will also post some links to sites that give good tips & tricks on writin
  - [Hints for revising][revising]
  - [Writing tips for non-writers who don't want to work at writing][writing]
  - Stephen King - On Writing
+ - [Writing is thinking: Learn to write with confidence][thinking]
 
 [blogging]:   https://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/
 [revising]:   http://web.archive.org/web/20050403185924/http://www.testing.com/cgi-bin/blog/2004/11/16
 [writing]:    https://whatever.scalzi.com/2006/02/12/writing-tips-for-non-writers-who-dont-want-to-work-at-writing/
+[thinking]:   https://blog.stephsmith.io/learning-to-write-with-confidence/
