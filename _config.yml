@@ -6,13 +6,13 @@ title: M. Batelaan blog
 description: This is my blog site
 subtitle: PhD research
 name: Mischa Batelaan
-url: "https://pages.github.cs.adelaide.edu.au/a1688714/a1688714"
-repository: "https://github.cs.adelaide.edu.au/a1688714/a1688714"
-github_username:  a1688714
+url: "https://mbatelaan.github.io/mbatelaan"
+repository: "https://github.com/mbatelaan"
+github_username:  mbatelaan
 
 lsi: false
 safe: true
-source: a1688714
+source: mbatelaan
 incremental: false
 highlighter: rouge
 gist:
