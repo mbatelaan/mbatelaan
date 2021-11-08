@@ -4,7 +4,7 @@ title:  "About"
 parmalink: /about/
 ---
 
-# This blog is where I will post writings related to my PhD research.
+# This blog is where I will post writings about everything
 
 
 
