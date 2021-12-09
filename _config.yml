@@ -57,7 +57,7 @@ plugins:
 
 lsi: false
 safe: true
-# source: mbatelaan
+source: mbatelaan
 incremental: false
 highlighter: rouge
 gist:
