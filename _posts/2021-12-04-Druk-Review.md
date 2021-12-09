@@ -21,5 +21,5 @@ The idea of the experiment is that they will drink throughout the work day to ke
 
 ![alt text][druk]
 
-[druk]: ../includes/2004222_druk_still_009-druk-mads-mikkelsen-thomas-magnus-lars-photo-by-rolf-konnow_dan-swe-nor-fin_print-1520x855.jpg "Logo Title Text 2"
+[druk]: _includes/2004222_druk_still_009-druk-mads-mikkelsen-thomas-magnus-lars-photo-by-rolf-konnow_dan-swe-nor-fin_print-1520x855.jpg "Logo Title Text 2"
 
