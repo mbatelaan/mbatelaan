@@ -4,7 +4,7 @@ title:  "Druk (Another Round) Review"
 tags: films reviews
 ---
 
-![druk](/assets/druk.jpg)
+![druk](/mbatelaan/docs/assets/druk.jpg)
 
 Druk is a Danish film by director Thomas Vinterberg starring Mads Mikkelsen. The film starts with a quote from Søren Kierkegaard:
 >What is youth?  
