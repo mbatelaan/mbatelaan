@@ -19,7 +19,5 @@ The idea of the experiment is that they will drink throughout the work day to ke
  - Martin chases an even higher high
  - He inevitably crashes down
 
-![alt text][druk]
-
-[druk]: /assets/druk.jpg
+![druk](/assets/druk.jpg)
 
