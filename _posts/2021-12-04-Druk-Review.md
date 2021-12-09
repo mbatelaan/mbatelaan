@@ -5,10 +5,10 @@ categories: Movies films
 ---
 
 Druk is a Danish film by director Thomas Vinterberg starring Mads Mikkelsen. The film starts with a quote from Søren Kierkegaard:
->What is youth?
->A dream.
->What is Love?
->The dream's content.
+>What is youth?  
+>A dream.  
+>What is Love?  
+>The dream's content.  
 
 The film tells the story of four high school teachers who decide to embark on an experiment in which they explore the full spectrum of alcohol use. The main character, Martin is a history teacher who has trouble with his class of seniors who complain that they do not trust him to adequately prepare them for the final exams that year. His teaching style is very erratic and he shows no enthusiasm for the content at all. After a birthday dinner with the other three theachers where Martin vents his worries and anxieties about the state of his life, the group of four decide to embark on an experiment. The motivation for the experiment comes from an idea by a philosopher that humans are born with a blood alcohol content that is 0.05 too low.
 
