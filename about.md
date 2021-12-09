@@ -1,21 +1,18 @@
 ---
 layout: page
-title:  "About"
-parmalink: /about/
+title: About
+permalink: /about/
 ---
 
-# This blog is where I will post writings about everything
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
+
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
 
-
-
-## Navigation
-
-<h2>{{ site.data.navigation.list_title }}</h2>
-<ul>
-   {% for item in site.data.navigation.main %}
-      <li>
-	<a href="{{ item.url }}">{{ item.title }}</a>
-      </li>
-   {% endfor %}
-</ul>
+[jekyll-organization]: https://github.com/jekyll
