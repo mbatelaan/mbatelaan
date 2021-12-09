@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Welcome to my blog pages
+## Posts
 
 I will post writings about my PhD research here
 
