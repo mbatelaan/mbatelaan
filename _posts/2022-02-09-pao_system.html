@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-02-10 Thu 16:33 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PAO system</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Mischa" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">PAO system</h1>
+
+<p>
+<b>Person Action Object system</b>
+</p>
+
+<p>
+This is a system that can be used to encode the order of cards or numbers to make it easier to memorise them. The way it works is that every card has an associated person, action and object. These are usually related to each other to aid recalling them. For example the 3 of hearts could be Michael Jordan shooting a basketball. Here are some more examples:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Card</th>
+<th scope="col" class="org-left">Person</th>
+<th scope="col" class="org-left">Action</th>
+<th scope="col" class="org-left">Object</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Queen Hearts</td>
+<td class="org-left">Serena Williams</td>
+<td class="org-left">serving</td>
+<td class="org-left">tennis ball</td>
+</tr>
+
+<tr>
+<td class="org-left">Ace Diamonds</td>
+<td class="org-left">Michelangelo</td>
+<td class="org-left">chiseling</td>
+<td class="org-left">the David</td>
+</tr>
+
+<tr>
+<td class="org-left">3 Diamonds</td>
+<td class="org-left">Michael Jackson</td>
+<td class="org-left">moonwalking</td>
+<td class="org-left">white glove</td>
+</tr>
+
+<tr>
+<td class="org-left">2 Spades</td>
+<td class="org-left">Neil Armstrong</td>
+<td class="org-left">planting</td>
+<td class="org-left">USA flag</td>
+</tr>
+
+<tr>
+<td class="org-left">8 Clubs</td>
+<td class="org-left">Frodo</td>
+<td class="org-left">putting his finger in</td>
+<td class="org-left">the ring</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+As you can see actions and objects clearly fit with the person, and the person can be a fictional character or a real person. This association needs to be done for all 52 cards in a deck or all numbers from 00 to 99. The aim here is to be as creative as possible and get a wide range of person, actions and objects to minimize overlap which could become confusing. There are some tricks to making this process easier:
+</p>
+<ol class="org-ol">
+<li>Choose categories. For the cards you can decide to make each suit associated with a certain category. For example for my system I have chosen Hearts to be athletes, Diamonds to be artists, Spades to be historical figures and Clubs to be fictional characters. These categories can be much more specific however, such as only characters from a tv show or a book, or only politicians. Do realise that having variety in the persons makes it easier to choose fitting actions and objects (Try finding 12 actions that a politician could do?)</li>
+<li>Use the <a href="20211221111411-major_system.html#ID-09fd6092-a46c-4c5c-b174-080e7ec00568">Major system</a> to associate card numbers with person names. This will associate each number with certain sounds which you can use to find names that start with that sound, for example 3 diamonds -&gt; Michael Jackson. The major system can be a good way to help your memory along when trying to remember the name of the person a card is associated with.</li>
+<li>Test out your action and object combinations. The actions and objects will need to be combined in all possible combinations, so making sure that you can somehow visualize them going together is a good check. Don't let this stop you from getting creative however, it is often the weird combinations that stick the best in your memory.</li>
+<li>Get explicit and rude. Using sexual or violent actions might not be nice but they tend to stick better than others. The same goes for polarizing figures, or people you have a strong emotional reaction to. (Try including Hitler, Trump or your secret crush).</li>
+<li>Don't be afraid to break the rules. If you have a really good association between a card and a person but it doesn't fit in the right category, you can still use it. We are going for strong associations here so if you find one that you like, keep it!</li>
+</ol>
+
+<p>
+Once every card has a PAO associated with it, we can combine this system with a <a href="20211221112138-memory_palace.html#ID-35416d2e-2a4b-4cf3-8e6a-19897858b1c8">memory palace</a> to memorize the order of a deck of cards. sort the cards into sets of three, then for each set of three cards take the person of the first, the action of the second and the object of the third card. Try to form one coherent image out of these three cards and place this image at the first location in your memory palace. Play around with the image a bit or maybe even try talking to the person to really make it stick. Then move on to the next set of three cards and place them at the second location. Keep doing this until you are through the deck. For a standard deck of cards you will need 18 locations, where the last location will have just one card. Depending on how you wish to remember the card order you coul omit the last location as this will simply be the last card left (this is for if you want to put a second deck into the same order, if you want to recite the order of the deck you better memorize that last card to avoid an anticlimactic ending).
+</p>
+
+<p>
+The PAO system for a deck of cards can also be repurposed for numbers by using the numbered cards (and aces) for 01-40 and then finding a way to sort the name cards into the next 12 numbers.
+</p>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Mischa</p>
+<p class="date">Created: 2022-02-10 Thu 16:33</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
