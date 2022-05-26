@@ -1,8 +1,6 @@
 ### Hi there 👋
 
 
-https://mbatelaan.github.io/mbatelaan/
-
 <!--
 **a1688714/a1688714** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,7 +16,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-https://mbatelaan.github.io/mbatelaan/
+<!--https://mbatelaan.github.io/mbatelaan/
 
 ## Sources:
  - http://benlansdell.github.io/computing/mathjax/
+-->
